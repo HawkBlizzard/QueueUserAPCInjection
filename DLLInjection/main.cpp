@@ -6,7 +6,7 @@ int wmain(int argc, wchar_t* argv[]) {
 
 	// 引数の数をチェック
 	if (argc != 3) {
-		std::wcout << "使用方法: " << argv[0] << " [プロセス名] [DLLパス]" << std::endl;
+		std::wcout << "Usage: " << argv[0] << " [プロセス名] [DLLパス]" << std::endl;
 		return 1;
 	}
 
